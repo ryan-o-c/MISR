@@ -1,0 +1,21 @@
+# Large data directories
+out_connected_cycles/
+solved_configurations/
+test_dir/
+
+# Python cache and virtual environments
+__pycache__/
+*.pyc
+.env/
+venv/
+
+# Jupyter notebooks
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
