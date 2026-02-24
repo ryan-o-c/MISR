@@ -96,7 +96,7 @@ if __name__ == "__main__":
             content = f.read().strip()
             return eval(content)
 
-    input_dir = "test_dir"  # change as needed
+    input_dir = "output_a12"  # change as needed
     output_dir = "solved_configurations"
     os.makedirs(output_dir, exist_ok=True)
 
