@@ -214,5 +214,5 @@ def run_parallel_generation(a: int, num_workers: int = 30):
     print(f"[!] Total Time: {time.time() - start_time:.2f} seconds")
 
 if __name__ == "__main__":
-    for test_a in range(6, 13):
+    for test_a in range(6, 17):
         run_parallel_generation(a=test_a, num_workers=30)
